@@ -32,18 +32,21 @@ Le code génère des matrices de distances visualisables en image PGM.
 ```bash
 git clone git@github.com:TON_USER/PROJET-PLAGIAT-L2---C.git
 cd PROJET-PLAGIAT-L2---C
+```
+---
 
-## 2. Compiler le programme
+### 2. Compiler le programme
 
 ```bash
 make
-
+```
 ---
 
 ## Lancer toutes les comparaisons
 
 ```bash
 make run
+```
 
 - Compare automatiquement tous les fichiers listés dans le Makefile (FILES)
 - Affiche les distances entre chaque paire de fichiers
